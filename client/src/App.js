@@ -13,8 +13,18 @@ const Portfolio = () => {
   const scrollToSection = (sectionId) => {
     document.getElementById(sectionId)?.scrollIntoView({ behavior: "smooth" });
   };
+  const titleText = "Portfolio -Himanshu Upadhyay   ";
+  let pos = 0;
 
+  function scrollTitle() {
+    document.title = titleText.substring(pos) + titleText.substring(0, pos);
+    pos = (pos + 1) % titleText.length;
+    setTimeout(scrollTitle, 200); // adjust speed (ms)
+  }
+
+  scrollTitle();
   return (
+
     <div className="min-h-screen bg-slate-900 text-white">
      
      <Navbar/>
