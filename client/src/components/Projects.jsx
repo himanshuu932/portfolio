@@ -4,8 +4,19 @@ import { ExternalLink, Eye, Calendar, Linkedin } from 'lucide-react';
 
 
 const projects = [
-     {
+     
+        {
     id: 0,
+    name: "DAV PG College Website",
+    url: "https://www.davpgcollegegkp.ac.in/",
+    postLink: null,
+    description: "The official, responsive website for DAV PG College, featuring a custom CMS for easy content management by staff.",
+    image: "https://picsum.photos/id/24/800/600", // <-- REPLACE THIS
+    technologies: ["React", "Tailwind", "Node.js", "MongoDB"],
+    completedDate: "2025-04-28",
+    category: "Education",
+  },{
+    id: 6,
       name: "Sewa Bharat Goraksh",
       url: "https://sewabharatigoraksh.org/",
       postLink: null,
@@ -39,7 +50,7 @@ const projects = [
   },
   {
     id: 3,
-    name: "Road Detection",
+    name: "Pothole Detection",
     url: null,
     postLink: "https://www.linkedin.com/posts/himanshu-upadhyay-2309a1298_aiforgood-yolov8-deeplearning-activity-7359199150917197824-vCPu?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEgMngQB_oU5C_QaWRCL2aCTwEAr8HkYgcA",
     description: "A web-based tool utilizing computer vision to detect and classify road anomalies like potholes from uploaded images.",
@@ -70,17 +81,7 @@ const projects = [
     completedDate: "2024-07-30",
     category: "Developer Tool"
   },
-  {
-    id: 6,
-    name: "DAV PG College Website",
-    url: "https://www.davpgcollegegkp.ac.in/",
-    postLink: null,
-    description: "The official, responsive website for DAV PG College, featuring a custom CMS for easy content management by staff.",
-    image: "https://picsum.photos/id/24/800/600", // <-- REPLACE THIS
-    technologies: ["React", "Tailwind", "Node.js", "MongoDB"],
-    completedDate: "2025-04-28",
-    category: "Education",
-  },
+  
       {
       id: 7,
       name: "Kalyan Mandapam Portal",
