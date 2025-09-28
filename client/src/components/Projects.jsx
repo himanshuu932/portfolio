@@ -51,7 +51,7 @@ const projects = [
   {
     id: 3,
     name: "Pothole Detection",
-    url: null,
+    url: "https://road-lgct.onrender.com",
     postLink: "https://www.linkedin.com/posts/himanshu-upadhyay-2309a1298_aiforgood-yolov8-deeplearning-activity-7359199150917197824-vCPu?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEgMngQB_oU5C_QaWRCL2aCTwEAr8HkYgcA",
     description: "A web-based tool utilizing computer vision to detect and classify road anomalies like potholes from uploaded images.",
     image: "/road.png", 
