@@ -20,7 +20,7 @@ const  Hero =()=>{
           </div>
           <div className="order-2 lg:order-1 text-center lg:text-left">
             <h1 className="text-5xl md:text-6xl font-bold mb-6 text-white">Himanshu Upadhyay</h1>
-            <p className="text-2xl md:text-3xl text-blue-400 mb-6">Full Stack Developer</p>
+            <p className="text-2xl md:text-3xl text-blue-400 mb-6">I am an Engineer</p>
             <p className="text-lg text-justify text-slate-300 mb-8 leading-relaxed">
               Results-driven developer with a strong grasp of data structures, algorithms, and OOP. Proven ability to lead technical teams in delivering complex web applications using React, Node.js, and MongoDB.
             </p>

@@ -4,105 +4,144 @@ import { ExternalLink, Eye, Calendar, Linkedin } from 'lucide-react';
 
 
 const projects = [
-     
-        {
-    id: 0,
-    name: "DAV PG College Website",
-    url: "https://www.davpgcollegegkp.ac.in/",
-    postLink: null,
-    description: "The official, responsive website for DAV PG College, featuring a custom CMS for easy content management by staff.",
-    image: "https://picsum.photos/id/24/800/600", // <-- REPLACE THIS
-    technologies: ["React", "Tailwind", "Node.js", "MongoDB"],
-    completedDate: "2025-04-28",
-    category: "Education",
-  },{
-    id: 6,
-      name: "Sewa Bharat Goraksh",
-      url: "https://sewabharatigoraksh.org/",
-      postLink: null,
-      description: "Website for Sewa Bharat Goraksh, showcasing their services and initiatives in the community along with a donation portal for supporting their cause",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=200&fit=crop",
-      technologies: ["React", "CSS"],
-      completedDate: "2025-01-15",
-      category: "Charity"
-     },
-  {
-    id: 1,
-    name: "DOG Registration Portal",
-    url: "https://dog-registration.vercel.app/",
-    postLink: null,
-    description: "An official government services portal for Nagar Nigam Gorakhpur to register pets, manage vaccination records, and view owner details.",
-    image: "https://picsum.photos/id/237/800/600", // <-- REPLACE THIS
-    technologies: ["React", "Tailwind", "Node.js", "MongoDB"],
-    completedDate: "2025-06-05",
-    category: "Government Services",
-  },
-  {
-    id: 2,
-    name: "Peek PDF",
-    url: "https://peek-pdf.netlify.app/",
-    postLink: null,
-    description: "A powerful document management system with an AI chatbot to query PDF content using natural language.",
-    image: "https://picsum.photos/id/1/800/600", 
-    technologies: ["React", "GenAI", "Node.js", "Express"],
-    completedDate: "2025-02-10",
-    category: "Business"
-  },
-  {
-    id: 3,
-    name: "Pothole Detection",
-    url: "https://road-lgct.onrender.com",
-    postLink: "https://www.linkedin.com/posts/himanshu-upadhyay-2309a1298_aiforgood-yolov8-deeplearning-activity-7359199150917197824-vCPu?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEgMngQB_oU5C_QaWRCL2aCTwEAr8HkYgcA",
-    description: "A web-based tool utilizing computer vision to detect and classify road anomalies like potholes from uploaded images.",
-    image: "/road.png", 
-    technologies: ["OpenCV", "Flask"," Python", "pandas", "NumPy","YOLOv8"],
-    completedDate: "2024-11-20",
-    category: "AI/ML"
-  },
-  {
-    id: 4,
-    name: "Bandhan",
-    url: null, 
-    postLink: "https://www.linkedin.com/posts/himanshu-upadhyay-2309a1298_rakshabandhan-familysafety-bandhanapp-activity-7359875721277685760-RSiE?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEgMngQB_oU5C_QaWRCL2aCTwEAr8HkYgcA", // <-- REPLACE THIS
-    description: "A React Native mobile application designed for families to keep track of each other's location, with offline-first capabilities.",
-    image: "/bandhan.jpg", // <-- REPLACE THIS
-    technologies: ["React-Native", "CSS"],
-    completedDate: "2024-09-15",
-    category: "Mobile App"
-  },
-  {
-    id: 5,
-    name: "CIX",
-    url: null, 
-    postLink: null, // <-- REPLACE THIS
-    description: "A utility tool designed to help developers quickly create and customize boilerplate for React components and div structures.",
-    image: "/cix.png", // <-- REPLACE THIS
-    technologies: ["JavaScript", "Reactjs", "CSS"],
-    completedDate: "2024-07-30",
-    category: "Developer Tool"
-  },
-  
-      {
-      id: 7,
-      name: "Kalyan Mandapam Portal",
-      url: "https://kalyan-mandapam.vercel.app/",
-      postLink: null,
-      description: "Online portal for booking and managing Kalyan Mandapam services, including event scheduling and payment processing",
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=400&h=200&fit=crop",
-      technologies: ["React.js", "CSS", "Tailwind"," Node.js", "Express.js", "MongoDB"],
-      completedDate: "2025-05-15",
-      category: "Government Services"
+    // --- Top Tier: Official & High-Impact Projects ---
+    {
+        id: 0,
+        name: "DOG Registration Portal",
+        url: "https://dog-registration.vercel.app/",
+        postLink: null,
+        description: "An official government services portal for Nagar Nigam Gorakhpur to register pets, manage vaccination records, and view owner details.",
+        image: "https://picsum.photos/id/237/800/600",
+        technologies: ["React", "Tailwind", "Node.js", "MongoDB"],
+        completedDate: "2025-06-05",
+        category: "Government Services",
     },
-      {
-      id: 8,
-      name: "TeachEase",
-      url: "https://teach-ease.netlify.app/",
-      postLink: null,
-      description: "A comprehensive education platform for students and teachers, offering course management, assignments, and communication tools",
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=400&h=200&fit=crop",
-      technologies: ["React.js", "CSS", "Tailwind"," Node.js", "Express.js", "MongoDB"],
-      completedDate: "2024-11-05",
-      category: "Education"
+    {
+        id: 7,
+        name: "Kalyan Mandapam Portal",
+        url: "https://kalyan-mandapam.vercel.app/",
+        postLink: null,
+        description: "Online portal for booking and managing Kalyan Mandapam services, including event scheduling and payment processing.",
+        image: "https://images.unsplash.com/photo-1519751138087-5bf79df62d5b?w=400&h=200&fit=crop",
+        technologies: ["React.js", "Tailwind", "Node.js", "Express.js", "MongoDB"],
+        completedDate: "2025-05-15",
+        category: "Government Services"
+    },
+    {
+        id: 1,
+        name: "DAV PG College Website",
+        url: "https://www.davpgcollegegkp.ac.in/",
+        postLink: null,
+        description: "The official, responsive website for DAV PG College, featuring a custom CMS for easy content management by staff.",
+        image: "https://picsum.photos/id/24/800/600",
+        technologies: ["React", "Tailwind", "Node.js", "MongoDB"],
+        completedDate: "2025-04-28",
+        category: "Education",
+    },
+    {
+        id: 10,
+        name: "HillRiders NGO Website",
+        url: "https://hillridersmanavsewasamiti.vercel.app",
+        postLink: null,
+        description: "Official website for the HillRiders Manav Sewa Samiti NGO, showcasing their mission, initiatives, and community work.",
+        image: "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=400&h=200&fit=crop",
+        technologies: ["React", "Tailwind", "Node.js", "Express.js", "MongoDB"],
+        completedDate: "2025-07-15",
+        category: "Charity"
+    },
+
+    // --- Second Tier: Advanced & Innovative Technology ---
+    {
+        id: 3,
+        name: "Pothole Detection",
+        url: "https://road-lgct.onrender.com",
+        postLink: "https://www.linkedin.com/posts/himanshu-upadhyay-2309a1298_aiforgood-yolov8-deeplearning-activity-7359199150917197824-vCPu",
+        description: "A web-based tool utilizing computer vision to detect and classify road anomalies like potholes from uploaded images.",
+        image: "/road.png",
+        technologies: ["OpenCV", "Flask", "Python", "YOLOv8"],
+        completedDate: "2024-11-20",
+        category: "AI/ML"
+    },
+    {
+        id: 2,
+        name: "Peek PDF",
+        url: "https://peek-pdf.netlify.app/",
+        postLink: null,
+        description: "A powerful document management system with an AI chatbot to query PDF content using natural language.",
+        image: "https://picsum.photos/id/1/800/600",
+        technologies: ["React", "GenAI", "Node.js", "Express"],
+        completedDate: "2025-02-10",
+        category: "Business"
+    },
+    
+    // --- Third Tier: Full-Stack Applications & Mobile ---
+    {
+        id: 11,
+        name: "Numbr - Barber Shop App",
+        url: null,
+        postLink: "https://play.google.com/store/apps/details?id=com.x2023021235.barber&pcampaignid=web_share",
+        description: "A mobile application for barber shops to manage appointments and services, available on the Google Play Store.",
+        image: "/numbr.png",
+        technologies: ["React-Native", "CSS", "Firebase"],
+        completedDate: "2025-09-10",
+        category: "Mobile App"
+    },
+    {
+        id: 4,
+        name: "Bandhan",
+        url: null,
+        postLink: "https://www.linkedin.com/posts/himanshu-upadhyay-2309a1298_rakshabandhan-familysafety-bandhanapp-activity-7359875721277685760-RSiE",
+        description: "A React Native mobile application designed for families to keep track of each other's location, with offline-first capabilities.",
+        image: "/bandhan.jpg",
+        technologies: ["React-Native", "CSS"],
+        completedDate: "2024-09-15",
+        category: "Mobile App"
+    },
+    {
+        id: 9,
+        name: "FitFlow",
+        url: "https://rudraashwi-workout.vercel.app/",
+        postLink: null,
+        description: "A web application for tracking workouts and fitness progress, helping users stay motivated and achieve their goals.",
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=200&fit=crop",
+        technologies: ["React", "Tailwind", "Firebase"],
+        completedDate: "2025-08-20",
+        category: "Health & Fitness"
+    },
+    {
+        id: 8,
+        name: "TeachEase",
+        url: "https://teach-ease.netlify.app/",
+        postLink: null,
+        description: "A comprehensive education platform for students and teachers, offering course management, assignments, and communication tools.",
+        image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=400&h=200&fit=crop",
+        technologies: ["React.js", "Tailwind", "Node.js", "Express.js", "MongoDB"],
+        completedDate: "2024-11-05",
+        category: "Education"
+    },
+    {
+        id: 6,
+        name: "Sewa Bharat Goraksh",
+        url: "https://sewabharatigoraksh.org/",
+        postLink: null,
+        description: "Website for a non-profit, showcasing their community services and initiatives, and featuring a donation portal.",
+        image: "https://images.unsplash.com/photo-1593113646773-028c64a8f1b8?w=400&h=200&fit=crop",
+        technologies: ["React", "CSS"],
+        completedDate: "2025-01-15",
+        category: "Charity"
+    },
+
+    // --- Fourth Tier: Developer-Focused Projects ---
+    {
+        id: 5,
+        name: "CIX",
+        url: null,
+        postLink: null,
+        description: "A utility tool designed to help developers quickly create and customize boilerplate for React components and div structures.",
+        image: "/cix.png",
+        technologies: ["JavaScript", "Reactjs", "CSS"],
+        completedDate: "2024-07-30",
+        category: "Developer Tool"
     },
 ];
 

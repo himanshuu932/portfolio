@@ -19,7 +19,7 @@ const  Footer =()=>{
             <a href="mailto:himanshuu932@gmail.com" className="text-slate-400 hover:text-blue-400 transition-colors p-3 bg-slate-800 rounded-full"><Mail size={24} /></a>
           </div>
           <div className="border-t border-slate-800 pt-8">
-            <p className="text-slate-500">© 2025 Himanshu Upadhyay • Made with ❤️ in India</p>
+            <p className="text-slate-500">© 2025 Himanshu Upadhyay </p>
           </div>
         </div>
       </footer>
