@@ -62,6 +62,17 @@ const projects = [
         completedDate: "2024-11-20",
         category: "AI/ML"
     },
+     {
+        id: 12,
+        name: "𝗔𝗜-𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗪𝗶𝗹𝗱𝗳𝗶𝗿𝗲 𝗣𝗿𝗲𝗱𝗶𝗰𝘁𝗶𝗼𝗻 & 𝗦𝗶𝗺𝘂𝗹𝗮𝘁𝗶𝗼𝗻 𝗦𝘆𝘀𝘁𝗲𝗺",
+        url: null,
+        postLink: "https://www.linkedin.com/posts/himanshu-upadhyay-2309a1298_bharatiyaantarikshhackathon-isro-geospatialai-activity-7397224454512103424-Bfel?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEgMngQB_oU5C_QaWRCL2aCTwEAr8HkYgcA",
+        description: "An AI-driven system developed for ISRO's Bharatiya Antariksh Hackathon to predict and simulate wildfire spread using geospatial data.",
+        image: "/fire.png",
+        technologies: ["Python", "PyTorch", "Rasterio", "GDAL", "NumPy", "Matplotlib", "Scikit-learn"],
+        completedDate: "2024-9-20",
+        category: "AI/ML"
+    },
     {
         id: 2,
         name: "Peek PDF",

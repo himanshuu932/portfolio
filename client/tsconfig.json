@@ -1,0 +1,14 @@
+// tsconfig.json
+{
+  "compilerOptions": {
+    // ... your other options might be here ...
+    "jsx": "react-jsx", // Add this line
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": [
+    "src" // Make sure this is included to cover all files in the src directory
+  ]
+}
