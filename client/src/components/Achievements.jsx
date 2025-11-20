@@ -15,7 +15,7 @@ const  Achievements =()=>{
                     { icon: Trophy, text: "Hackathon 1st Runner-Up: HackBlitz by Google Developers Group (300+ participants)." },
                     { icon: Award, text: "CodeChef Starters-181: Global rank-309/38,000+." },
                     { icon: Star, text: "CodeChef Rating: 4★ (max-1827)" },
-                    { icon: Star, text: "Codeforces Rating: Pupil (max-1313)" },
+                    { icon: Star, text: "Codeforces Rating: Specialist (max-1500)" },
                   ].map((achievement, index) => (
                     <div key={index} className="bg-slate-800/50 border border-slate-700 rounded-lg p-6 flex items-center gap-4">
                       <achievement.icon className="text-blue-400 flex-shrink-0" size={32} />
