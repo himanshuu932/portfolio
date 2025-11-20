@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "motion": "^12.23.24"
-  },
-  "devDependencies": {
-    "tailwindcss-animate": "^1.0.7"
-  }
-}
