@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <h1 className="text-2xl font-bold text-blue-400">Himanshu Upadhyay</h1>
-          
+
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
             <button onClick={() => scrollToSection("home")} className="text-white hover:text-blue-400 transition-colors">Home</button>

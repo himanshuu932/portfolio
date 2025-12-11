@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, Linkedin, Github, ExternalLink, Download, Code, Database, Server, Globe, Award, Trophy, Star, Briefcase, GraduationCap, Calendar, MapPin, Users, BrainCircuit,FileText ,ToolCase } from 'lucide-react';
+import { Mail, Phone, Linkedin, Github, ExternalLink, Download, Code, Database, Server, Globe, Award, Trophy, Star, Briefcase, GraduationCap, Calendar, MapPin, Users, BrainCircuit, FileText, ToolCase } from 'lucide-react';
 import Projects from './components/Projects';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
@@ -26,17 +26,17 @@ const Portfolio = () => {
   return (
 
     <div className="min-h-screen bg-slate-900 text-white">
-     
-     <Navbar/>
-     <Hero/>
-     <Education/> 
-     <Experience />
-     <Skills/>
-     <Projects />
-     <Achievements/>
-     <Certifications />
-     <Footer />
-     </div>
+
+      <Navbar />
+      <Hero />
+      <Education />
+      <Experience />
+      <Skills />
+      <Projects />
+      <Achievements />
+      <Certifications />
+      <Footer />
+    </div>
   );
 };
 
